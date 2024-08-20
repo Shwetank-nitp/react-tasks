@@ -1,0 +1,41 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 1rem;
+  border-radius: 5px;
+  flex-wrap: nowrap;
+}
+
+.sub-item {
+  margin-left: 1rem;
+  border-left: 1px dotted black;
+}
+
+.item-name-box {
+  gap: 2rem;
+  max-width: 80px;
+  overflow: hidden;
+}
+
+.struct {
+  background-color: gray;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.options {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.add-btn {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.file-sys-box {
+  width: 340px;
+}

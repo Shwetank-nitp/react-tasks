@@ -1,0 +1,19 @@
+.container {
+  padding: 0.5rem 1rem;
+  width: 150px;
+  outline: 1px solid;
+  border-radius: 5px;
+}
+
+.container:hover {
+  transform: scale(1.03);
+}
+
+.title {
+  font-size: large;
+}
+
+.price {
+  font-size: small;
+  color: gray;
+}
